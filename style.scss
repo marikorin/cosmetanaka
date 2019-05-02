@@ -1,0 +1,419 @@
+// 変数
+$color_1: #3366FF;
+$color_2: #3399FF;
+$color_3: #33CCCC;
+$color_4: #ff8933;
+$color_5: #333;
+$color_6: #EEFFFF;
+$color_7: #fff;
+$color_8: #FF97C2;
+
+// 共通
+body {
+    color: $color_5;
+    margin: 0;
+    min-width: 1264px;
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+.rogo {
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 15px;
+}
+.bird-icon {
+    width: 25px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+h1,h2 {
+    text-align: center;
+}
+h2 {
+    color: $color_1;
+}
+h1,h3 {
+    color: $color_2;
+}
+a {
+    text-decoration: none;
+}
+.titleLine {
+    width: 1211px;
+    margin: 0 auto;
+}
+
+// ナビ start
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0;
+    height: 60px;
+
+    li {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        vertical-align: middle;
+        padding: 0 5px;
+        
+        a {
+            color: $color_1;
+        }
+    }
+}
+// ショップイメージ start
+.shopImgSection {
+    background-image: url("img/333.jpg");
+    background-size: cover;
+    height: 210px;
+}
+// タイトル start
+.title {
+    margin-bottom: 30px;
+
+    p {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 50px 0 0px;
+        width: 380px;
+        margin: 0px auto 10px;
+        color: $color_2;
+    }
+
+    h1 {
+        font-size: 43px;
+        margin: 0 auto 30px;
+        width: 449px;
+        text-align: center;
+    }
+}
+
+// section 共通
+.bird_p_titleImg {
+    float: left;
+}
+.sectionMainTitle {
+    float: left;
+    text-align: center;
+    margin: 11px 0 0 0;
+}
+
+// 取り扱いブランド start
+.brandSection {
+    margin-bottom: 30px;
+
+    .brandSectionMainTitleBlock {
+        width: 492px;
+        margin: 0px auto 30px;
+    }
+
+    .brandSectionMainTitle {
+        margin: 12px 20px 0;
+    }
+}
+.brandBlockWrap {
+    width: 1136px;
+    margin: 0 auto 50px;
+
+    .brandBlock {
+        float: left;
+        margin: 0 50px;
+
+        .brandImg {
+            height: 200px;
+        }
+
+        .brandTitle {
+            margin: 0 auto;
+        }
+    
+        .decorteTitle {
+            width: 132px;
+        }
+    
+        .prediaTitle {
+            width: 100px;
+        }
+    
+        .philTitle {
+            width: 169px;
+        }
+
+        p {
+            margin: 0 auto;
+            width: 62px;
+            font-size: 14px;
+            color: $color_5;
+            border-bottom: 1px solid;
+        }
+    }
+
+}
+
+// フェイシャルエステメニュー start
+.aesteSection {
+
+    margin-bottom: 30px;
+
+    .aesteSectionMainTitleBlock {
+        width: 612px;
+        margin: 0 auto 10px;
+
+        .aesteSectionMainTitle {
+            margin: 10px 20px 0;
+        }
+    }
+
+    .aesteMenuWrap {
+        h3 {
+            text-align: center;
+            border-bottom: 1px dotted;
+            width: 445px;
+            margin: 0 auto 30px;
+        }
+
+        .aeste3Effect {
+            width: 387px;
+            margin: 0 auto 30px;
+
+            p {
+                font-size: 18px;
+                float: left;
+                margin: 0 10px;
+                color: $color_8;
+                font-weight: 600;
+            }
+
+            p,.aeste3EffectImg {
+                float: left;
+            }
+        }
+
+        .aestheImg {
+            margin: 0 auto 30px;
+            width: 800px;
+
+            img {
+                width: 800px;
+            }
+        }
+
+        .aesteMessage {
+            margin: 0 auto;
+            width: 626px;
+
+            p {
+                font-weight: bold;
+                line-height: 2;
+                letter-spacing: 0.2em;
+                color: $color_8;
+                text-align: center;
+                margin: 0 0 30px
+            }
+        }
+
+        .aesteMenuCourse {
+
+            text-align: center;
+            margin-bottom: 30px;
+
+            .aesteMenuTitle {
+                width: 359px;
+                margin: 0 auto 15px;
+    
+                img {
+                    float: left;
+                }
+    
+                h4 {
+                    margin: 0 0 30px;
+                    color: $color_2;
+                    font-size: 20px;
+                }
+            }
+            .aesteMenuDescription {
+                
+                p {
+                    font-weight: bold;
+                    margin: 0 0 20px;
+                }
+
+                .trial_stepsWrap {
+
+                    width: 932px;
+                    margin: 0 auto;
+
+                    img {
+                        width: 210px;
+                        margin-bottom: 10px;
+                    }
+
+                    .trial_steps {
+                        float: left;
+                        width: 213px;
+                        margin-right: 20px;
+                        
+                        h5 {
+                            margin: 0 0 10px;
+                            font-size: 16px;
+                        }
+
+                        p {
+                            text-align: left;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                h6 {
+                    font-size: 18px;
+                    color: $color_3;
+                    margin: 10px 0 20px;
+                }
+
+                table {
+                    margin: 0 auto 10px;
+                    font-weight: bold;
+    
+                    td {
+                        padding-right: 10px;
+                    }
+                }
+            }
+
+            .aesteMenuCourseList {
+
+                h5 {
+                    font-size: 16px;
+                    margin: 0 0 20px;
+                    color: $color_3;
+                }
+
+                p {
+                    margin: 0 0 40px;
+                }
+            }
+        }
+    }
+}
+
+// 会員様特典 start
+.benefitsSection {
+    margin-bottom: 30px;
+
+    .benefitsSectionMainTitleBlock {
+        width: 420px;
+        margin: 0 auto 30px;
+
+        .benefitsSectionMainTitle {
+            margin: 12px 20px 0;
+        }
+    }
+
+    .benefits {
+        width: 433px;
+        margin: 0 auto 30px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+// その他サービスメニュー start
+.otherServiceSection {
+    margin-bottom: 30px;
+
+    .otherServiceSectionMainTitleBlock {
+        width: 564px;
+        margin: 0 auto 30px;
+
+        .otherServiceSectionMainTitle {
+            margin: 12px 20px 0;
+        }
+    }
+
+    .otherService {
+        width: 369px;
+        margin: 0 auto 30px;
+        font-size: 16px;
+        font-weight: bold;
+
+        td {
+            padding-right: 20px;
+        }
+    }
+}
+
+// エステのご予約・各種お問い合わせ start
+.contactSection {
+    margin-bottom: 30px;
+
+    .contactSectionMainTitleBlock {
+        width: 684px;
+        margin: 0 auto 30px;
+
+        .contactSectionMainTitle {
+            margin: 10px 20px 0;
+        }
+    }
+
+    .line {
+        width: 116px;
+        margin: 0 auto 30px;
+    }
+}
+// 店舗情報 start
+.accessSection {
+    margin-bottom: 30px;
+
+    .accessSectionMainTitleBlock {
+
+        margin: 0 auto 20px;
+        width: 396px;
+
+        .accessSectionMainTitle { 
+            margin: 12px 20px 0;
+        }
+    }
+
+    .access {
+        width: 826px;
+        margin: 0 auto 30px;
+    
+        .company {
+            float: left;
+            margin: 0 50px 0 0;
+    
+            table td {
+                padding: 0 20px 20px 0;
+            }
+        }
+    }
+
+}
+
+// カレンダー start
+.calendarSection {
+    margin-bottom: 30px;
+
+    .calendarSectionMainTitleBlock {
+        margin: 0 auto 20px;
+        width: 452px;
+
+        .calendarSectionMainTitle {
+
+        }
+    }
+
+    .calendarImgWrap {
+        margin: 0 auto 30px;
+        width: 500px;
+    
+        img {
+            width: 500px;
+        }
+    }
+}
